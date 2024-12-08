@@ -8,8 +8,7 @@ function Dashboard() {
     const [data, setData] = useState([]); 
     const [newData, setNewData] = useState({ name:'', lastname: '', email: '', password:'', confirmPassword: ''}); 
     const [editingId, setEditingId] = useState(null)    
-    const [isLoading, setIsLoading] = useState(false);  
-    const [responseMessage, setResponseMessage] = useState('');  
+
  
   
 
