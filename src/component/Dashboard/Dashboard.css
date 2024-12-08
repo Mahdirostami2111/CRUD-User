@@ -1,0 +1,102 @@
+
+
+.containerr{
+    width: 400px;
+    height: 100%;
+    background-color: #D8D2C2;
+    border-radius: 10px;
+}
+
+
+
+
+.user-profile-box{
+    padding: 20px;
+}
+
+.user-profile-box:not(:last-child){
+    border-bottom: 2px solid black;
+}
+
+
+
+.user-profile-name{
+    margin-bottom: 5px;
+}
+
+.btn-groups-column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.btn-groups-column button{
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: gray;
+    color: #fff;
+    width: 100px;
+    outline: none;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+
+.btn-groups-column button:hover{
+    background-color: chocolate;
+}
+
+
+.login_form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.username_input{
+    width: 40%;
+    margin-left: 10px;
+}
+
+.username_input input{
+    border-radius: 20px;
+    border: none;
+    height: 25px;
+    box-shadow: inset 10px 10px 20px #B17457;
+    outline: none;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.password_input{
+    width: 40%;
+    margin-left: 10px;
+}
+
+.password_input input{
+    border-radius: 20px;
+    height: 25px;
+    border: none;
+    box-shadow: inset 10px 10px 20px #B17457;
+    outline: none;
+    padding-left: 10px;
+    width: 100%;
+
+}
+
+.btn{
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    background-color: #B17457;
+    color: #fff;
+    font-size: 18px;
+    /* line-height: 40px; */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding: 10px;
+}
